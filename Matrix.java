@@ -30,11 +30,11 @@ public class Matrix {
             }
         }
 
-        System.out.println("\nOriginal matrix: ");
+        System.out.println("Original matrix: ");
         printMatrix(originalMatrix);
 
 
-        System.out.println("\nTranspose matrix: ");
+        System.out.println("Transpose matrix: ");
         printMatrix(transposedMatrix);
     }
 
