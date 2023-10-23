@@ -22,10 +22,10 @@ public class Matrix {
             }
         }
 
-        int[][] transposedMatrix = new int[columns][rows];
+        int[][] transposedMatrix = new int[originalMatrix[0].length][originalMatrix.length];
 
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < columns; j++) {
+        for (int i = 0; i < originalMatrix.length; i++) {
+            for (int j = 0; j < originalMatrix[i].length; j++) {
                 transposedMatrix[j][i] = originalMatrix[i][j];
             }
         }
